@@ -1,0 +1,20 @@
+.menuItemsDiv{
+    width: 90%;
+    h2{
+        color: #9e63ad;
+    }
+    .breifForm{
+        display: flex;
+        justify-content: space-between;
+        input{
+            border: 1px ridge grey;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 10px;
+        }
+        h3{
+            font-weight: 450;
+        }
+    }
+}

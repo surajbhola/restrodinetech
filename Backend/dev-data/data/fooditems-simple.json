@@ -1,0 +1,31 @@
+[
+    {
+      "id": "f1",
+      "category": "Non Veg Starter",
+      "itemname": "Chicken Tandoori",
+      "eta": 0
+    },
+    { "id": "f2", "category": "Soup", "itemname": "Sweet Corn Soup", "eta": 0 },
+    { "id": "f3", "category": "Main Course", "itemname": "Chicken Briyani", "eta": 0 },
+    {
+      "id": "f4",
+      "category": "Veg Starter",
+      "itemname": "Paneer Manchurian",
+      "eta": 0
+    },
+    { "id": "f5", "category": "Veg Starter", "itemname": "Mushroom Gravy", "eta": 0 },
+    {
+      "id": "f6",
+      "category": "Non Veg Starter",
+      "itemname": "Chicken Wings",
+      "eta": 0
+    },
+    { "id": "f7", "category": "Main Course", "itemname": "Chicken Noodles", "eta": 0 },
+    { "id": "f8", "category": "Soup", "itemname": "Tomato Soup", "eta": 0 },
+    {
+      "id": "f9",
+      "category": "Non Veg Starter",
+      "itemname": "Mutton Chukka",
+      "eta": 0
+    }
+  ]
