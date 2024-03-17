@@ -3,7 +3,7 @@ import { QueryClient } from "@tanstack/react-query";
 export const queryClient = new QueryClient();
 
 export async function fetchFoodItems() {
-  let url = "https://restrodinetech-w0mh.onrender.com/fooditems";
+  let url = "https://restrodinetech-w0mh.onrender.com/api/v1/fooditems";
 
   const response = await fetch(url);
   if (!response.ok) {
@@ -18,7 +18,7 @@ export async function fetchFoodItems() {
   return FoodItems;
 }
 export async function deleteFoodItems(id) {
-  let url = `https://restrodinetech-w0mh.onrender.com/fooditems/${id}`;
+  let url = `https://restrodinetech-w0mh.onrender.com/api/v1/fooditems/${id}`;
 
   const response = await fetch(url, { method: "DELETE" });
   if (!response.ok) {

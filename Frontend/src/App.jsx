@@ -6,6 +6,7 @@ import {
 import { QueryClient } from "@tanstack/react-query";
 import { QueryClientProvider } from "@tanstack/react-query";
 import "./App.css";
+import "./app.scss";
 import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
 import AddMenu from "./components/AddMenu";
